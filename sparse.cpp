@@ -8,9 +8,7 @@ class sparse {
     int r,c,t;
     int tab[max_row][3];
     public:
-        sparse() {
-
-            
+        sparse() {    
             tab[0][2]=0;
         }
         sparse(int ro, int co, int to) {
